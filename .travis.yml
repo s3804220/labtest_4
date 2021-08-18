@@ -5,3 +5,5 @@ jdk:
 os:
   - linux
 dist: trusty
+script:
+  - mvn clean verify
